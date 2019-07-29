@@ -3,4 +3,5 @@
     <string name="title_1">Busca novio</string>
     <string name="title_2">Mascotas</string>
     <string name="title_3">Veteriniarios</string>
+    <string name="title_activity_login">Registro</string>
 </resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        tools:context=".ui.fragment.LoginFragment">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Email"
+              android:layout_marginBottom="4dp"
+              android:layout_marginStart="2dp"
+              android:layout_marginTop="32dp"
+              android:id="@+id/emailTextView"/>
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/shape_edit_text"
+              android:padding="8dp"
+              android:id="@+id/emailEditText"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_marginTop="16dp"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="4dp"
+              android:layout_marginStart="2dp"
+              android:text="Password"
+              android:id="@+id/passwordTextView"/>
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/shape_edit_text"
+              android:padding="8dp"
+              android:id="@+id/passwordEditText"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_marginTop="32dp"
+            android:text="Iniciar sesion"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
